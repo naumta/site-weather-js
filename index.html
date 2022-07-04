@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="site-name">
+            <h1>MY WEATHER</h1>
+        </div>
+
+        <div class="site-search">
+            <input type="text" value="" class="site-search-type">
+            <img src="img.png" alt="" class="site-search-img">
+        </div>
+        
+    </header>
+
+    <div class="menu">
+        <div class="menu-today">
+            <button class="menu-today-btn">Today</button>
+        </div>
+
+        <div class="menu-5days">
+            <button class="menu-5days-btn">5-day forecast</button>
+        </div>
+        
+    </div>
+
+<div class="container-weather">    
+    <div class="weather">
+        <div class="weather-menu">
+            <div class="weather-menu-current">
+                <h2>Current weather</h2>
+            </div>
+
+            <div class="weather-menu-cityName"></div>
+
+            <div class="weather-menu-date">
+                <h2></h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="weather-info">
+        <div class="weather-info-condition">
+            <div class="weather-info-condition-icon">
+                <img  alt="" class="weather-info-condition-icon-item">
+            </div>
+            <div class="weather-info-condition-description">
+                <p></p>
+            </div>
+        </div>
+
+        <div class="weather-info-degree">
+            <div class="weather-info-degree-temp">
+                <p></p>
+            </div>
+            <div class="weather-info-degree-feels">
+                <p></p>
+            </div>
+        </div>
+
+        <div class="weather-info-sun">
+            <div class="weather-info-sun-rise">
+                <div>
+                    <p>Восход:</p>
+                </div>
+                <div>
+                    <p class="weather-info-sun-rise-time"></p>
+                </div>
+            </div>
+
+            <div class="weather-info-sun-set">
+                <div>
+                    <p>Закат:</p>
+                </div>
+                <div>
+                    <p class="weather-info-sun-set-time"></p>
+                </div>
+            </div>
+
+            <div class="weather-info-sun-duration">
+                <div>
+                    <p>Длительность дня:</p>
+                </div>
+                <div>
+                    <p class="weather-info-sun-duration-time"></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--вкладка 5 дней-->
+<div class="wrapper hide">
+<!--Forecast 5-days--> 
+</div>
+
+<!--hourlyToday-->
+<div class="wrapper-one-day">
+</div>
+
+<!--Error-->
+
+<div class="error hide">
+    <h1 class="error-title">City not found</h1>
+    <img src="2.jpg" alt="" class="error-img">
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
